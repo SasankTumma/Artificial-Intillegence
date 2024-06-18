@@ -1,0 +1,50 @@
+# !!! Do not change keywords !!!
+classes:
+  - Sec-A
+  - Sec-B
+  - Sec-C
+
+days:
+  - monday
+  - tuesday
+  - wednesday
+  - thursday
+  - friday
+  - saturday
+
+hours:
+  - h1
+  - h2
+  - h3
+  - h4
+  - h5
+  - h6
+
+# <course, room_type, lecturer, units>
+course_mapping: 
+  - ["cloud",  "L", "l5", 2]
+  - ["ai",    "L","l5", 2]
+  - ["cn",    "L","l5", 1]
+  - ["dm","T","l5", 1]
+  - ["dsa", "L","l5", 1]
+  - ["daa",     "L", "l1", 1]
+  - ["la",     "T", "l3", 1]
+  - ["cd",  "T", "l3", 1]
+  - ["flat",    "T", "l0", 2]
+  - ["calculus",     "T", "l3", 2]
+  - ["english",    "T", "l4", 1]
+  - ["physics", "T", "l3", 2]
+  - ["chemistry",  "T","l5", 2]
+  - ["biology","T", "l3", 1]
+  - ["env","T", "l3", 1]
+
+rooms:
+  type:
+    - T
+    - L
+  number:
+    - 50
+    - 50
+  
+  
+  
